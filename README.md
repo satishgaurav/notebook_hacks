@@ -5,7 +5,9 @@ notebooks hacks useful for programming
 
 #### different ways to open Ipython and Jupyter 
 
+
 `jupyter lab` <br>
+
 ![image](https://user-images.githubusercontent.com/36672530/109757196-4cd03800-7c0f-11eb-8097-23202af0add1.png)
 
 `jupyter notebook` <br>
@@ -17,9 +19,9 @@ notebooks hacks useful for programming
 ![image](https://user-images.githubusercontent.com/36672530/109757405-b6504680-7c0f-11eb-928b-be500a758335.png)
 
 <br>
-## Print all variable in a cell
-c = get_config()
-# Run all nodes interactively
-c.InteractiveShell.ast_node_interactivity = "all"
+## Print all variable in a cell <br>
+c = get_config() <br>
+# Run all nodes interactively <br>
+c.InteractiveShell.ast_node_interactivity = "all" <br>
 
 **Create a file at this location `~/.ipython/profile_default/ipython_config.py` and paste the above code**
