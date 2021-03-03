@@ -21,6 +21,6 @@ notebooks hacks useful for programming
 **Print all variable in a cell** \
 `c = get_config()` \
 **Run all nodes interactively** \
-`c.InteractiveShell.ast_node_interactivity = "all"` \
+`c.InteractiveShell.ast_node_interactivity = "all"` 
 
 **Create a file at this location `~/.ipython/profile_default/ipython_config.py` and paste the above code**
